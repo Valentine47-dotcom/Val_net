@@ -1,0 +1,71 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #fefefe;
+  color: #333;
+}
+
+header {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.bio {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 200px;
+  border-radius: 12px;
+}
+
+.bio-text h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.gallery, .tiktok, .video-showcase {
+  padding: 2rem;
+}
+
+.images {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.images img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.videos iframe {
+  width: 300px;
+  height: 500px;
+  border: none;
+  margin: 1rem;
+}
+
+.video-showcase video {
+  width: 320px;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+footer {
+  background: #222;
+  color: #eee;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
